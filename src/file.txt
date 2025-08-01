@@ -1,0 +1,14 @@
+      <div className=' min-h-80 space-y-5 p-7 bg-gradient-to-r from-red-600 via-orange-500 to-pink-400' >
+        <h1 className='text-white font-semibold ' >Your study material uploads</h1>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-2 ' >
+          <div className='bg-white p-5 cursor-pointer rounded-[9px] shadow-lg hover:scale-102 transition ease-in duration-150 ' >
+            <h1 className='text-center ' >Class 10th-Algebra notes</h1>
+          </div>
+          <div className='bg-white p-5 cursor-pointer rounded-[9px] shadow-lg hover:scale-102 transition ease-in duration-150 ' >
+            <h1 className='text-center ' >Class 11th-Physics notes</h1>
+          </div>
+          <div className='bg-white p-5 cursor-pointer rounded-[9px] shadow-lg hover:scale-102 transition ease-in duration-150 ' >
+            <h1 className='text-center ' >Class 12th-Biology notes</h1>
+          </div>
+        </div>
+      </div>
