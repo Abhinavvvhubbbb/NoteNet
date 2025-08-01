@@ -2,12 +2,10 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { SearchIcon, User, User2Icon } from 'lucide-react'
 function Homelayout() {
-    const navigate = useNavigate()
     return (
         <div className='mt-20' >
             <div className=' min-h-170  '  >
                 <div className='p-5 flex justify-end' >
-                    {/* <User2Icon onClick={()=>navigate('/profile')} className=' text-[#424242] bg-gray-100 p-2 h-12 w-12 cursor-pointer rounded-full'/> */}
                 </div>
                 <div className=' p-2' >
                     <h1 className='text-center text-2xl text-[#424242]' >Study material, shared by students & teachers, across every institute.</h1>
