@@ -76,17 +76,17 @@ const App = () => {
         {
           path: '/feature',
           element: <Feature />
-        }, 
+        },
         {
           path: '/upload',
-          element: <Upload/>
+          element: <Upload />
+        },
+        {
+          path: '*',
+          element: <Error />
         }
       ]
     },
-    {
-      path: '*',
-      element: <Error />
-    }
   ])
   return (
     <div>
