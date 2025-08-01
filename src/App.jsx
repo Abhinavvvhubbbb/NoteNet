@@ -66,10 +66,6 @@ const App = () => {
           element: <Contact />
         },
         {
-          path: '/settings',
-          element: <Settingspage />
-        },
-        {
           path: '/register',
           element: <Register />
         },
