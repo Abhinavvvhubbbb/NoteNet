@@ -12,7 +12,6 @@ function Login() {
                     <h1 className='font-semibold ' >Password</h1>
                     <input type="password" className=' outline-1 outline-[#948f8f] p-3 w-full rounded-[8px] ' placeholder='Enter password' />
                     <button className='bg-gradient-to-r from-red-600 via-orange-500 to-pink-400 p-3 rounded-[8px] text-white w-full hover:scale-99 transition ease-in duration-100' >Log in</button>
-                    <h1 className='text-center  cursor-pointer text-blue-900' >Forgot password?</h1>
                 </form>
                 <div className='flex justify-center md:order-2 order-1 items-center' >
                 <h1 className='text-3xl text-white text-center font-bold ' >Log in to NoteNet</h1>
