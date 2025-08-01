@@ -8,7 +8,7 @@ import Profile from './components/Profile';
 import Footer from './components/Footer';
 import Error from './components/Error';
 import Contact from './components/Contact';
-import Settingspage from './components/Upload';
+import Upload from './components/Upload';
 import Register from './components/Register';
 import Login from './components/Login'
 import Feature from './components/Feature';
@@ -76,6 +76,10 @@ const App = () => {
         {
           path: '/feature',
           element: <Feature />
+        }, 
+        {
+          path: '/upload',
+          element: <Upload/>
         }
       ]
     },

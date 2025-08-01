@@ -2,7 +2,11 @@ import React from 'react'
 
 function Upload() {
   return (
-    <div>Upload</div>
+    <div className='mt-20' >
+        <div>
+            <h1>Upload page</h1>
+        </div>
+    </div>
   )
 }
 
