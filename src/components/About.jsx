@@ -6,9 +6,6 @@ import Aditya from '../assets/Aditya.png'
 import Harsh from '../assets/Harsh.png'
 function About() {
   const naviagte = useNavigate();
-  const Handlesettngs = () => {
-    naviagte('/settings')
-  }
   const AbhinavId=()=>{
     location.href = 'https://www.instagram.com/abhignite/'
   }
@@ -23,7 +20,6 @@ function About() {
     <div className='mt-20' >
       <div className=' p-7 flex items-center justify-between ' >
         <h1 className='text-3xl font-bold text-[#424242] ' >About NoteNet</h1>
-        <Settings onClick={Handlesettngs} className=' cursor-pointer bg-gradient-to-r from-red-600 via-orange-500 to-pink-400 p-2 h-10 w-10 rounded-full text-white' />
       </div>
       <section className='grid md:grid-cols-2 gap-2 p-5 bg-gradient-to-r from-red-600 via-orange-500 to-pink-400 ' >
         <div className='bg-white text-[#424242] p-5 rounded-2xl shadow-lg border-l-6 space-y-2 ' >
