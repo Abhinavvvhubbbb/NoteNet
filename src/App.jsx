@@ -19,6 +19,7 @@ function Navbar() {
   }
   return (
     <div>
+    <title>NoteNet</title>
       <div>
         <nav className=' bg-white h-20 flex items-center justify-between border-b-1 top-0 fixed w-screen ' >
           <h1 className='text-[#424242] text-2xl md:text-4xl mx-7 ' >NoteNet</h1>
